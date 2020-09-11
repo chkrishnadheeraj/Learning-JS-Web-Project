@@ -1,0 +1,19 @@
+{
+  "name": "learning-js-web-project",
+  "version": "1.0.0",
+  "description": "\"# Learning-JS-Web-Project\"",
+  "main": "catalog.js",
+  "scripts": {
+    "test": "\"echo \\\"Error no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lohit398/Learning-JS-Web-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lohit398/Learning-JS-Web-Project/issues"
+  },
+  "homepage": "https://github.com/lohit398/Learning-JS-Web-Project#readme"
+}
