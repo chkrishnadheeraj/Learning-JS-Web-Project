@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 
-
+/*Hero and Navbar styles*/
 
 .hero {
     display: flex;
@@ -21,7 +21,8 @@ body {
     background-repeat: no-repeat;
     background-position: calc(50% + 460px) calc(0% + 120px + 32px);
     background-color: #F5F5F7;
-    height: 100vh;
+    background-repeat: no-repeat;
+    height:100vh;
 }
 
 
@@ -98,3 +99,19 @@ body {
 .navbar div img:first-child {
     height: 20px;
 }
+
+.banner{
+    display:flex;
+    justify-content:center;
+    background-color: #434343; 
+    align-items: center;
+    height:35px;
+}
+
+.banner strong:first-child{
+    color:white;
+    font-size:14px;
+    font-family: Helvetica,sans-serif;
+
+}
+
