@@ -100,3 +100,18 @@ body {
     height: 20px;
 }
 
+.banner{
+    display:flex;
+    justify-content:center;
+    background-color: #434343; 
+    align-items: center;
+    height:35px;
+}
+
+.banner strong:first-child{
+    color:white;
+    font-size:14px;
+    font-family: Helvetica,sans-serif;
+
+}
+
