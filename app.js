@@ -18,6 +18,10 @@ app.get('/',function(req,res){
   res.sendFile(path.join(__dirname + '/home.html'));
 })
 
+app.get('/catalog',function(req,res){
+  res.sendFile(path.join(__dirname + '/catalog.html'));
+})
+
  
 
  

@@ -1,1 +1,36 @@
 /*This is only for resposiveness and multiple device and adjustment*/
+/* For catalog*/
+@media (max-device-width:1024px) and (min-device-width:769px) {
+    nav .cart-icon {
+        display:flex;
+        margin-left:600px;
+    }
+}
+
+@media (max-device-width: 768px) and (min-device-width:425px) {
+    nav .cart-icon {
+        display:flex;
+        margin-left:560px;
+    }
+}
+
+@media (max-width: 768px) and (min-width:425px) {
+    nav .cart-icon {
+        display:flex;
+        margin-left:330px;
+    }
+}
+
+@media (max-width: 2560px) and (min-width: 1440px) {
+    nav .cart-icon {
+        display:flex;
+        margin-left:1024px;
+    }
+}
+
+@media (min-width: 2560px) {
+    nav .cart-icon {
+        display:flex;
+        margin-left:2115px;
+    }
+}
