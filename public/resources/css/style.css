@@ -122,13 +122,14 @@ body {
     background-color: white;
 }
 nav {
-    display: flex;
-    background-color: black;
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
     background-blend-mode: overlay;
     position: fixed;
     z-index: 999;
     width: 100%;
-    height: 70px;
+    height: 50px;
     line-height: 70px;
     align-items: center;
        
@@ -136,6 +137,7 @@ nav {
 nav ul {
     display: flex;
     list-style:none;
+    width:22%;
 
 }
 nav li {
@@ -147,7 +149,9 @@ nav li {
 }
 nav .cart-icon {
     display:flex;
-    margin-left:1085px;
+    justify-content: flex-end;
+    width:78%;
+   
 }
 .container {
     display:flex;
